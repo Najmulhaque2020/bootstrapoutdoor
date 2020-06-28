@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap");
+/*Typography Code*/
+*{margin: 0; padding: 0;}
+p{
+    margin: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}  
+a {
+    color: #fff;
+}
+a:hover{
+    color: #fff !important;
+}
+.btn:hover{
+    color: #000;
+}
+img {
+    max-width: 100%;
+}
+.learnmore1 {
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #fb2056;
+    font-weight: bold;
+}
+.learnmore2,.fa-plane {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fb2056;
+    font-weight: 400;
+}
+header{
+    background: rgba(0, 0, 0, 0.3) url(img/scotland-1080.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    color: #fff;
+}
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+}
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    border: 2px solid transparent;
+    margin: 3px;
+    border-radius: 30px;
+    text-align: center;
+}
+.nav-link:hover {
+    border: 2px solid #fff;
+}
+.nav-item:last-child .nav-link{
+    border: 2px solid #fff;
+}
+.header_content h2 {
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header_content span {
+    display: inline-block;
+    width: 10%;
+    height: 3px;
+    background-color: #fb2056;
+}
+.header_content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    padding: 10px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adamsection {
+    height: 300px;
+    overflow: hidden;
+    background-color: #f4f5f9;
+    color: #8c949c;
+    font-style: italic;
+}
+.adamsection span {
+    font-size: 250px;
+    font-family: auto;
+    color: #fff;
+}
+.adamsection p:last-child{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+}
+.upcoming_event img {
+    box-shadow: 11px 11px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 200px;
+}
+.explore{
+    max-height: 85vh;
+    background: rgba(0, 0, 0, 0.3) url(img/02-1280-822.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    color: #fff;
+}
+.explore h1 {
+font-size: 65px;
+padding-bottom: 15px;
+}
+.explore .col-6 > span {
+    display: block;
+    width: 15%;
+    height: 3px;
+    background-color: #fb2056; 
+}
+.explore p {
+    line-height: 1.6;
+    width: 85%;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.explore .learnmore2 {
+    padding: 0;
+    color: #fff;
+    text-align: left;
+}
+.tour_section .content > span {
+    display: block;
+    width: 15%;
+    height: 3px;
+    background-color: #fb2056;
+}
+.tour_section .content h1 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.small {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 0 0 10px 10px;
+}
+.big {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    padding: 0 0 10px 10px;
+}
+.footer_bg {
+    background: #191919;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+footer p:first-child {
+    padding-bottom: 10px;
+}
