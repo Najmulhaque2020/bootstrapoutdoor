@@ -175,3 +175,11 @@ footer{
 footer p:first-child {
     padding-bottom: 10px;
 }
+@media (max-width: 767px){
+    
+.small {
+    height: auto;
+}
+.big {
+    height: auto;
+}
